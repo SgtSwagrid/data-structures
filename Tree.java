@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 /**
  * An implementation of a tree data structure.
  * Each element is allowed to have any arbitrary amount of children.
- * To be built up recursively by constructing trees out of existing subtrees.
+ * To be built bottom-up by constructing trees out of existing subtrees.
  * 
  * <br>More generally, a tree is a fully-connected acyclic graph,
  * whereby each element has a single parent and some children.
