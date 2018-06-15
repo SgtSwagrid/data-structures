@@ -1,3 +1,4 @@
+import java.io.Serializable;
 import java.util.*;
 import java.util.function.*;
 import java.util.stream.Collectors;
@@ -16,7 +17,8 @@ import java.util.stream.Collectors;
  * 
  * @param <T> the type of value of which the tree is to be composed.
  */
-public class Tree<T> implements Iterable<T> {
+@SuppressWarnings("serial")
+public class Tree<T> implements Iterable<T>, Serializable {
     
     /**
      * The node at the root of the tree. Will never be null.
