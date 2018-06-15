@@ -9,8 +9,8 @@ import java.util.stream.Collectors;
  * 
  * <br>More generally, a tree is a fully-connected acyclic graph,
  * whereby each element has a single parent and some children.
- 
- <br>Requires Java SE 1.8 or later.
+ * 
+ * <br>Requires Java SE 1.8 or later.
  * 
  * @author Alec Dorrington
  * 
